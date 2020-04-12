@@ -8,7 +8,7 @@ You can see a working instance of the dashboard at http://83.212.108.117:8088/su
 Screens:
 
 ![Overview](images/1-world.png)
-![Country view](images/2-Greece.png)
+![Country view](images/2-greece.png)
 ![USA - States view](images/3-usa.png)
 
 ## Functionality 
