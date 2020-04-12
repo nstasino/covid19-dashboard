@@ -1,0 +1,3016 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Covid 19",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"label_colors\": {\"Czechia\": \"#1f77b4\", \"Poland\": \"#ff7f0e\", \"Chile\": \"#2ca02c\", \"Pakistan\": \"#d62728\", \"Japan\": \"#9467bd\", \"Peru\": \"#8c564b\", \"Serbia\": \"#e377c2\", \"Malaysia\": \"#7f7f7f\", \"Luxembourg\": \"#bcbd22\", \"Saudi\": \"#17becf\", \"Panama\": \"#1f77b4\", \"Finland\": \"#ff7f0e\", \"Australia\": \"#2ca02c\", \"Qatar\": \"#d62728\", \"Mexico\": \"#9467bd\", \"Dominican\": \"#8c564b\", \"Colombia\": \"#e377c2\", \"Ukraine\": \"#7f7f7f\", \"Greece\": \"#bcbd22\", \"Thailand\": \"#17becf\", \"Argentina\": \"#1f77b4\", \"Singapore\": \"#ff7f0e\", \"Egypt\": \"#2ca02c\", \"Croatia\": \"#d62728\", \"Moldova\": \"#9467bd\", \"Estonia\": \"#8c564b\", \"Morocco\": \"#e377c2\", \"Iceland\": \"#7f7f7f\", \"Belarus\": \"#bcbd22\", \"Slovenia\": \"#17becf\", \"New\": \"#1f77b4\", \"Lithuania\": \"#ff7f0e\", \"Armenia\": \"#2ca02c\", \"Azerbaijan\": \"#d62728\", \"Kuwait\": \"#9467bd\", \"Hungary\": \"#8c564b\", \"Bosnia\": \"#e377c2\", \"Iraq\": \"#7f7f7f\", \"Kazakhstan\": \"#bcbd22\", \"Slovakia\": \"#17becf\", \"Others\": \"#1f77b4\", \"Cameroon\": \"#ff7f0e\", \"Diamond\": \"#2ca02c\", \"Tunisia\": \"#d62728\", \"Cruise\": \"#9467bd\", \"North\": \"#8c564b\", \"Latvia\": \"#e377c2\", \"Bulgaria\": \"#7f7f7f\", \"Uzbekistan\": \"#bcbd22\", \"Lebanon\": \"#17becf\", \"Andorra\": \"#1f77b4\", \"Bahrain\": \"#ff7f0e\", \"Costa\": \"#2ca02c\", \"Cyprus\": \"#d62728\", \"Cuba\": \"#9467bd\", \"Afghanistan\": \"#8c564b\", \"UK\": \"#e377c2\", \"Oman\": \"#7f7f7f\", \"Cote\": \"#bcbd22\", \"Taiwan*\": \"#17becf\", \"Niger\": \"#1f77b4\", \"Honduras\": \"#ff7f0e\", \"Malta\": \"#2ca02c\", \"Ghana\": \"#d62728\", \"Uruguay\": \"#9467bd\", \"Burkina\": \"#8c564b\", \"Mauritius\": \"#e377c2\", \"Montenegro\": \"#7f7f7f\", \"Kyrgyzstan\": \"#bcbd22\", \"Nigeria\": \"#17becf\", \"Albania\": \"#1f77b4\", \"West\": \"#ff7f0e\", \"San\": \"#2ca02c\", \"Jordan\": \"#d62728\", \"Bolivia\": \"#9467bd\", \"Bangladesh\": \"#8c564b\", \"Kenya\": \"#e377c2\", \"Guinea\": \"#7f7f7f\", \"Georgia\": \"#bcbd22\", \"Congo\": \"#17becf\", \"Kosovo\": \"#1f77b4\", \"Sri\": \"#ff7f0e\", \"Senegal\": \"#2ca02c\", \"Vietnam\": \"#d62728\", \"Djibouti\": \"#9467bd\", \"Rwanda\": \"#8c564b\", \"Algeria\": \"#1f77b4\", \"Israel\": \"#1f77b4\", \"Russia\": \"#ff7f0e\", \"South\": \"#2ca02c\", \"Republic\": \"#d62728\", \"Korea,\": \"#9467bd\", \"Norway\": \"#8c564b\", \"India\": \"#e377c2\", \"Confirmed, Greece\": \"#1f77b4\", \"Recovered, Greece\": \"#ff7f0e\", \"Confirmed, United States\": \"#2ca02c\", \"Recovered, United States\": \"#d62728\", \"Deaths, United States\": \"#9467bd\", \"Recovered\": \"#8c564b\", \"MAX(confirmed)\": \"#e377c2\", \"US-NY\": \"#7f7f7f\", \"US-IL\": \"#bcbd22\", \"US-MI\": \"#17becf\", \"US-NJ\": \"#1f77b4\", \"US-CA\": \"#ff7f0e\", \"US-FL\": \"#2ca02c\", \"US-LA\": \"#d62728\", \"US-PA\": \"#9467bd\", \"US-CT\": \"#8c564b\", \"US-WA\": \"#e377c2\", \"MAX(deaths)\": \"#7f7f7f\", \"US-MA\": \"#bcbd22\", \"in-treatment\": \"#1f77b4\", \"Italy\": \"#ff7f0e\", \"Spain\": \"#2ca02c\", \"France\": \"#d62728\", \"Germany\": \"#9467bd\", \"recovered\": \"#8c564b\", \"China\": \"#e377c2\", \"United\": \"#7f7f7f\", \"Turkey\": \"#bcbd22\", \"Iran\": \"#17becf\", \"Netherlands\": \"#1f77b4\", \"deaths\": \"#ff7f0e\", \"Belgium\": \"#2ca02c\", \"Brazil\": \"#d62728\", \"Switzerland\": \"#9467bd\", \"Portugal\": \"#8c564b\", \"Austria\": \"#e377c2\", \"Canada\": \"#7f7f7f\", \"Denmark\": \"#bcbd22\", \"Ecuador\": \"#17becf\", \"Indonesia\": \"#1f77b4\", \"Ireland\": \"#ff7f0e\", \"Korea, South\": \"#2ca02c\", \"Philippines\": \"#d62728\", \"Romania\": \"#9467bd\", \"Sweden\": \"#8c564b\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Deaths\": \"#17becf\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\"}, \"remote_id\": 8, \"import_time\": 1586419415, \"filter_scopes\": {\"450\": {\"country\": {\"scope\": [\"TAB-N3u7MwFDV-\"], \"immune\": [437]}}}}",
+                "position_json": "{\"CHART--5HQQ_0U6G\":{\"children\":[],\"id\":\"CHART--5HQQ_0U6G\",\"meta\":{\"chartId\":446,\"height\":63,\"sliceName\":\"USA\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-UTWRcvSyC\",\"ROW-HClFEwyxe\"],\"type\":\"CHART\"},\"CHART-5wOVAXbiLE\":{\"children\":[],\"id\":\"CHART-5wOVAXbiLE\",\"meta\":{\"chartId\":448,\"height\":45,\"sliceName\":\"Daily cases\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\",\"ROW-pLSNIrB6q\"],\"type\":\"CHART\"},\"CHART-6m3mMMClTS\":{\"children\":[],\"id\":\"CHART-6m3mMMClTS\",\"meta\":{\"chartId\":442,\"height\":30,\"sliceName\":\"Recovered\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-y-6GtcAKC\"],\"type\":\"CHART\"},\"CHART-9JkVuNTgv5\":{\"children\":[],\"id\":\"CHART-9JkVuNTgv5\",\"meta\":{\"chartId\":438,\"height\":38,\"sliceName\":\"Greece\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\",\"ROW-u5DO_LV42\"],\"type\":\"CHART\"},\"CHART-IeiKfNLXY7\":{\"children\":[],\"id\":\"CHART-IeiKfNLXY7\",\"meta\":{\"chartId\":444,\"height\":30,\"sliceName\":\"Deaths\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-y-6GtcAKC\"],\"type\":\"CHART\"},\"CHART-KUsJWqY03o\":{\"children\":[],\"id\":\"CHART-KUsJWqY03o\",\"meta\":{\"chartId\":439,\"height\":58,\"sliceName\":\"Greece vs. EU\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\",\"ROW-G81Nh1Gw7\"],\"type\":\"CHART\"},\"CHART-Ln0xCSFw2a\":{\"children\":[],\"id\":\"CHART-Ln0xCSFw2a\",\"meta\":{\"chartId\":450,\"height\":31,\"sliceName\":\"Filter Country\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-y-6GtcAKC\"],\"type\":\"CHART\"},\"CHART-MiIDev5jSz\":{\"children\":[],\"id\":\"CHART-MiIDev5jSz\",\"meta\":{\"chartId\":440,\"height\":36,\"sliceName\":\"Deaths since last week\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\",\"ROW-u5DO_LV42\"],\"type\":\"CHART\"},\"CHART-ThBaXabLSP\":{\"children\":[],\"id\":\"CHART-ThBaXabLSP\",\"meta\":{\"chartId\":443,\"height\":30,\"sliceName\":\"Confirmed\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-y-6GtcAKC\"],\"type\":\"CHART\"},\"CHART-V6OMmBwpnP\":{\"children\":[],\"id\":\"CHART-V6OMmBwpnP\",\"meta\":{\"chartId\":441,\"height\":38,\"sliceName\":\"Cases since last week\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\",\"ROW-u5DO_LV42\"],\"type\":\"CHART\"},\"CHART-cDpRvUeosy\":{\"children\":[],\"id\":\"CHART-cDpRvUeosy\",\"meta\":{\"chartId\":445,\"height\":75,\"sliceName\":\"Deaths Worldwide\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-s_XW7LS1m\"],\"type\":\"CHART\"},\"CHART-cioxbCcKrk\":{\"children\":[],\"id\":\"CHART-cioxbCcKrk\",\"meta\":{\"chartId\":447,\"height\":62,\"sliceName\":\"By State\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-UTWRcvSyC\",\"ROW-HClFEwyxe\"],\"type\":\"CHART\"},\"CHART-lpdpFfh4yv\":{\"children\":[],\"id\":\"CHART-lpdpFfh4yv\",\"meta\":{\"chartId\":437,\"height\":75,\"sliceName\":\"Patient Outcomes\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\",\"ROW-s_XW7LS1m\"],\"type\":\"CHART\"},\"CHART-x2DAwjziT8\":{\"children\":[],\"id\":\"CHART-x2DAwjziT8\",\"meta\":{\"chartId\":449,\"height\":51,\"sliceName\":\"Cases over time - USA\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-UTWRcvSyC\",\"ROW-xOMvc6OHG\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-TkDZvvyFDb\":{\"children\":[],\"id\":\"DIVIDER-TkDZvvyFDb\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"TABS-tVHRG1A5vD\",\"DIVIDER-TkDZvvyFDb\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-d7o-Wwcv3T\":{\"children\":[],\"id\":\"HEADER-d7o-Wwcv3T\",\"meta\":{\"background\":\"BACKGROUND_WHITE\",\"headerSize\":\"LARGE_HEADER\",\"text\":\"Worldwide\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\"],\"type\":\"HEADER\"},\"HEADER-x7QJsruTkV\":{\"children\":[],\"id\":\"HEADER-x7QJsruTkV\",\"meta\":{\"background\":\"BACKGROUND_WHITE\",\"headerSize\":\"LARGE_HEADER\",\"text\":\"Greece\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Covid 19\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-G81Nh1Gw7\":{\"children\":[\"CHART-KUsJWqY03o\"],\"id\":\"ROW-G81Nh1Gw7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\"],\"type\":\"ROW\"},\"ROW-HClFEwyxe\":{\"children\":[\"CHART-cioxbCcKrk\",\"CHART--5HQQ_0U6G\"],\"id\":\"ROW-HClFEwyxe\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-UTWRcvSyC\"],\"type\":\"ROW\"},\"ROW-pLSNIrB6q\":{\"children\":[\"CHART-5wOVAXbiLE\"],\"id\":\"ROW-pLSNIrB6q\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\"],\"type\":\"ROW\"},\"ROW-s_XW7LS1m\":{\"children\":[\"CHART-cDpRvUeosy\",\"CHART-lpdpFfh4yv\"],\"id\":\"ROW-s_XW7LS1m\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\"],\"type\":\"ROW\"},\"ROW-u5DO_LV42\":{\"children\":[\"CHART-9JkVuNTgv5\",\"CHART-V6OMmBwpnP\",\"CHART-MiIDev5jSz\"],\"id\":\"ROW-u5DO_LV42\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-1ydmZFw44\"],\"type\":\"ROW\"},\"ROW-xOMvc6OHG\":{\"children\":[\"CHART-x2DAwjziT8\"],\"id\":\"ROW-xOMvc6OHG\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-UTWRcvSyC\"],\"type\":\"ROW\"},\"ROW-y-6GtcAKC\":{\"children\":[\"CHART-Ln0xCSFw2a\",\"CHART-ThBaXabLSP\",\"CHART-IeiKfNLXY7\",\"CHART-6m3mMMClTS\"],\"id\":\"ROW-y-6GtcAKC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\",\"TAB-N3u7MwFDV-\"],\"type\":\"ROW\"},\"TAB-1ydmZFw44\":{\"children\":[\"HEADER-x7QJsruTkV\",\"ROW-u5DO_LV42\",\"ROW-pLSNIrB6q\",\"ROW-G81Nh1Gw7\"],\"id\":\"TAB-1ydmZFw44\",\"meta\":{\"text\":\"Greece\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\"],\"type\":\"TAB\"},\"TAB-N3u7MwFDV-\":{\"children\":[\"HEADER-d7o-Wwcv3T\",\"ROW-y-6GtcAKC\",\"ROW-s_XW7LS1m\"],\"id\":\"TAB-N3u7MwFDV-\",\"meta\":{\"text\":\"Worldwide\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\"],\"type\":\"TAB\"},\"TAB-UTWRcvSyC\":{\"children\":[\"ROW-xOMvc6OHG\",\"ROW-HClFEwyxe\"],\"id\":\"TAB-UTWRcvSyC\",\"meta\":{\"text\":\"USA\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-tVHRG1A5vD\"],\"type\":\"TAB\"},\"TABS-tVHRG1A5vD\":{\"children\":[\"TAB-N3u7MwFDV-\",\"TAB-1ydmZFw44\",\"TAB-UTWRcvSyC\"],\"id\":\"TABS-tVHRG1A5vD\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 3-lQaesLISJ",
+                            "datasource_type": "table",
+                            "id": 437,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"HAVING\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_cfou8dou9ln_7igwmplmmq\", \"fromFormData\": true, \"isExtra\": false, \"operator\": null, \"sqlExpression\": \"SUM(value_final) > 5000\", \"subject\": null}], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"22__table\", \"granularity_sqla\": null, \"groupby\": [\"country\", \"target\"], \"label_colors\": {\"Algeria\": \"#1f77b4\", \"Austria\": \"#e377c2\", \"Belgium\": \"#2ca02c\", \"Brazil\": \"#d62728\", \"Canada\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"China\": \"#e377c2\", \"Confirmed, Greece\": \"#1f77b4\", \"Confirmed, United States\": \"#2ca02c\", \"Deaths\": \"#17becf\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Deaths, United States\": \"#9467bd\", \"Denmark\": \"#bcbd22\", \"Ecuador\": \"#17becf\", \"France\": \"#d62728\", \"Germany\": \"#9467bd\", \"India\": \"#e377c2\", \"Indonesia\": \"#1f77b4\", \"Iran\": \"#17becf\", \"Ireland\": \"#ff7f0e\", \"Israel\": \"#1f77b4\", \"Italy\": \"#ff7f0e\", \"Korea,\": \"#9467bd\", \"Korea, South\": \"#2ca02c\", \"MAX(confirmed)\": \"#e377c2\", \"MAX(deaths)\": \"#7f7f7f\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\", \"Netherlands\": \"#1f77b4\", \"Norway\": \"#8c564b\", \"Philippines\": \"#d62728\", \"Portugal\": \"#8c564b\", \"Recovered\": \"#8c564b\", \"Recovered, Greece\": \"#ff7f0e\", \"Recovered, United States\": \"#d62728\", \"Republic\": \"#d62728\", \"Romania\": \"#9467bd\", \"Russia\": \"#ff7f0e\", \"South\": \"#2ca02c\", \"Spain\": \"#2ca02c\", \"Sweden\": \"#8c564b\", \"Switzerland\": \"#9467bd\", \"Turkey\": \"#bcbd22\", \"US-CA\": \"#ff7f0e\", \"US-CT\": \"#8c564b\", \"US-FL\": \"#2ca02c\", \"US-IL\": \"#bcbd22\", \"US-LA\": \"#d62728\", \"US-MA\": \"#bcbd22\", \"US-MI\": \"#17becf\", \"US-NJ\": \"#1f77b4\", \"US-NY\": \"#7f7f7f\", \"US-PA\": \"#9467bd\", \"US-WA\": \"#e377c2\", \"United\": \"#7f7f7f\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"deaths\": \"#ff7f0e\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#8c564b\"}, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"value_final\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 553, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"SUM(value_final)\", \"optionName\": \"metric_ikza1mizc1p_0bl32fg41tgk\", \"sqlExpression\": null}, \"row_limit\": 50000, \"slice_id\": 437, \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {\"preselect_filters\": \"{\\\"450\\\": {\\\"__time_range\\\": \\\"Last month\\\"}}\"}, \"viz_type\": \"sankey\", \"remote_id\": 437, \"datasource_name\": \"Untitled Query 3-lQaesLISJ\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "Patient Outcomes",
+                            "viz_type": "sankey"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 3-g_qNnjUZHE",
+                            "datasource_type": "table",
+                            "id": 438,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Greece\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_90gd3rflvk_q4uwaz3bv7\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"country\"}], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"25__table\", \"granularity_sqla\": \"file_date\", \"groupby\": [], \"label_colors\": {\"Austria\": \"#e377c2\", \"Belgium\": \"#2ca02c\", \"Brazil\": \"#d62728\", \"Canada\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"China\": \"#e377c2\", \"Deaths\": \"#17becf\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Denmark\": \"#bcbd22\", \"Ecuador\": \"#17becf\", \"France\": \"#d62728\", \"Germany\": \"#9467bd\", \"Indonesia\": \"#1f77b4\", \"Iran\": \"#17becf\", \"Ireland\": \"#ff7f0e\", \"Italy\": \"#ff7f0e\", \"Korea, South\": \"#2ca02c\", \"MAX(confirmed)\": \"#9467bd\", \"MAX(deaths)\": \"#8c564b\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\", \"Netherlands\": \"#1f77b4\", \"Philippines\": \"#d62728\", \"Portugal\": \"#8c564b\", \"Romania\": \"#9467bd\", \"Spain\": \"#2ca02c\", \"Sweden\": \"#8c564b\", \"Switzerland\": \"#9467bd\", \"Turkey\": \"#bcbd22\", \"US-CA\": \"#17becf\", \"US-CT\": \"#d62728\", \"US-FL\": \"#1f77b4\", \"US-IL\": \"#e377c2\", \"US-LA\": \"#ff7f0e\", \"US-MA\": \"#e377c2\", \"US-MI\": \"#7f7f7f\", \"US-NJ\": \"#bcbd22\", \"US-NY\": \"#8c564b\", \"US-PA\": \"#2ca02c\", \"US-WA\": \"#9467bd\", \"United\": \"#7f7f7f\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"deaths\": \"#ff7f0e\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#8c564b\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 587, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_npaxvvqki4_sc7ic0tmomg\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 586, \"is_dttm\": false, \"optionName\": \"_col_confirmed\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Cases\", \"optionName\": \"metric_ksy8r3yj88_t5yf2ex112\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 588, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Recovered\", \"optionName\": \"metric_owui0ihkhft_mpyxsovo11b\", \"sqlExpression\": null}], \"order_desc\": true, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"send_time_range\": false, \"show_brush\": \"auto\", \"show_legend\": true, \"show_markers\": false, \"slice_id\": 438, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": true, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Cases\", \"y_axis_showminmax\": true, \"y_log_scale\": false, \"remote_id\": 438, \"datasource_name\": \"Untitled Query 3-g_qNnjUZHE\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "Greece",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Superset Admin-Untitled Query 2-j49If8fg5O",
+                            "datasource_type": "table",
+                            "id": 439,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category20\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"13__table\", \"granularity_sqla\": \"file_date\", \"groupby\": [\"country\"], \"label_colors\": {\"Austria\": \"#1f77b4\", \"Belgium\": \"#aec7e8\", \"Brazil\": \"#ff7f0e\", \"Canada\": \"#ffbb78\", \"Cases\": \"#1f77b4\", \"Cases, Germany\": \"#ff7f0e\", \"Cases, Greece\": \"#ffbb78\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#98df8a\", \"Cases, Portugal\": \"#d62728\", \"Cases, Spain\": \"#ff9896\", \"Cases, Sweden\": \"#9467bd\", \"Cases, United Kingdom\": \"#c5b0d5\", \"China\": \"#2ca02c\", \"Deaths\": \"#aec7e8\", \"Deaths, Germany\": \"#8c564b\", \"Deaths, Greece\": \"#c49c94\", \"Deaths, Italy\": \"#e377c2\", \"Deaths, Netherlands\": \"#f7b6d2\", \"Deaths, Portugal\": \"#7f7f7f\", \"Deaths, Spain\": \"#c7c7c7\", \"Deaths, Sweden\": \"#bcbd22\", \"Deaths, United Kingdom\": \"#dbdb8d\", \"Denmark\": \"#98df8a\", \"Ecuador\": \"#d62728\", \"France\": \"#ff9896\", \"Germany\": \"#9467bd\", \"Indonesia\": \"#c5b0d5\", \"Iran\": \"#8c564b\", \"Ireland\": \"#8c564b\", \"Israel\": \"#2ca02c\", \"Italy\": \"#c49c94\", \"Japan\": \"#e377c2\", \"Korea,\": \"#9467bd\", \"Korea, South\": \"#f7b6d2\", \"Mortality %, Germany\": \"#17becf\", \"Mortality %, Greece\": \"#9edae5\", \"Mortality %, Italy\": \"#1f77b4\", \"Mortality %, Netherlands\": \"#aec7e8\", \"Mortality %, Portugal\": \"#ff7f0e\", \"Mortality %, Spain\": \"#ffbb78\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#98df8a\", \"Netherlands\": \"#7f7f7f\", \"Norway\": \"#c5b0d5\", \"Philippines\": \"#c7c7c7\", \"Portugal\": \"#bcbd22\", \"Republic\": \"#d62728\", \"Romania\": \"#dbdb8d\", \"Russia\": \"#ff9896\", \"SUM(confirmed)\": \"#1f77b4\", \"SUM(deaths)\": \"#aec7e8\", \"South\": \"#98df8a\", \"Spain\": \"#17becf\", \"Sweden\": \"#9edae5\", \"Switzerland\": \"#1f77b4\", \"Turkey\": \"#aec7e8\", \"United\": \"#ff7f0e\", \"United Kingdom\": \"#ff7f0e\", \"United States\": \"#ffbb78\", \"deaths\": \"#ffbb78\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#aec7e8\"}, \"left_margin\": \"auto\", \"limit\": 500, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 601, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_fq2gf7m3aa7_78r4ea765e7\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 600, \"is_dttm\": false, \"optionName\": \"_col_confirmed\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Cases\", \"optionName\": \"metric_km6q2rm4qqs_6cjr8e2tc2\", \"sqlExpression\": null}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Mortality %\", \"optionName\": \"metric_7crhpzlqy98_wqpwk1i5g9n\", \"sqlExpression\": \"round(SUM(deaths/confirmed::decimal)*100, 2)\"}], \"order_desc\": true, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"send_time_range\": false, \"show_brush\": \"auto\", \"show_legend\": true, \"show_markers\": false, \"slice_id\": 89, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": true, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": true, \"y_log_scale\": false, \"remote_id\": 439, \"datasource_name\": \"Superset Admin-Untitled Query 2-j49If8fg5O\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "slice_name": "Greece vs. EU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 2-LWJaioi7W",
+                            "datasource_type": "table",
+                            "id": 440,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 7, \"compare_suffix\": \" since last week\", \"datasource\": \"22__table\", \"granularity_sqla\": \"file_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 529, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_7wmuqnrdzzl_5nwunb95cds\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 93, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"time_range_fixed\": false, \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 440, \"datasource_name\": \"Untitled Query 2-LWJaioi7W\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1586419415}",
+                            "slice_name": "Deaths since last week",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 2-LWJaioi7W",
+                            "datasource_type": "table",
+                            "id": 441,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 7, \"compare_suffix\": \" since last week\", \"datasource\": \"22__table\", \"granularity_sqla\": \"file_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 528, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_7wmuqnrdzzl_5nwunb95cds\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"time_range_fixed\": false, \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 441, \"datasource_name\": \"Untitled Query 2-LWJaioi7W\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1586419415}",
+                            "slice_name": "Cases since last week",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
+                            "datasource_type": "table",
+                            "id": 442,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 7, \"compare_suffix\": \"since last week\", \"datasource\": \"23__table\", \"granularity_sqla\": \"file_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 543, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"SUM(recovered)\", \"optionName\": \"metric_9w8llzcd3la_h0rqenoaprc\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 96, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 442, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "slice_name": "Recovered",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
+                            "datasource_type": "table",
+                            "id": 443,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 7, \"compare_suffix\": \"since last week\", \"datasource\": \"23__table\", \"granularity_sqla\": \"file_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 541, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"SUM(confirmed)\", \"optionName\": \"metric_9w8llzcd3la_h0rqenoaprc\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 97, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 443, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "slice_name": "Confirmed",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
+                            "datasource_type": "table",
+                            "id": 444,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 7, \"compare_suffix\": \"since last week\", \"datasource\": \"23__table\", \"granularity_sqla\": \"file_date\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 542, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"SUM(deaths)\", \"optionName\": \"metric_9w8llzcd3la_h0rqenoaprc\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1D\", \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 444, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "slice_name": "Deaths",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T",
+                            "datasource_type": "table",
+                            "id": 445,
+                            "params": "{\"adhoc_filters\": [], \"country_fieldtype\": \"name\", \"datasource\": \"24__table\", \"entity\": \"country\", \"granularity_sqla\": \"file_date\", \"max_bubble_size\": \"25\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_axb6lfoiww_yyjv72kk1xa\", \"sqlExpression\": null}, \"row_limit\": 50000, \"secondary_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_3nqk3nqhkcg_mcb0z34fzt\", \"sqlExpression\": null}, \"show_bubbles\": true, \"slice_id\": 99, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"world_map\", \"remote_id\": 445, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "slice_name": "Deaths Worldwide",
+                            "viz_type": "world_map"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 2-StUl_Tunx",
+                            "datasource_type": "table",
+                            "id": 447,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"SUPERSET_DEFAULT\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"37__table\", \"date_time_format\": \"smart_date\", \"equal_date_size\": true, \"granularity_sqla\": \"file_date\", \"groupby\": [\"code\"], \"label_colors\": {\"Afghanistan\": \"#8c564b\", \"Albania\": \"#1f77b4\", \"Algeria\": \"#1f77b4\", \"Andorra\": \"#1f77b4\", \"Argentina\": \"#1f77b4\", \"Armenia\": \"#2ca02c\", \"Australia\": \"#2ca02c\", \"Austria\": \"#e377c2\", \"Azerbaijan\": \"#d62728\", \"Bahrain\": \"#ff7f0e\", \"Bangladesh\": \"#8c564b\", \"Belarus\": \"#bcbd22\", \"Belgium\": \"#2ca02c\", \"Bolivia\": \"#9467bd\", \"Bosnia\": \"#e377c2\", \"Brazil\": \"#d62728\", \"Bulgaria\": \"#7f7f7f\", \"Burkina\": \"#8c564b\", \"Cameroon\": \"#ff7f0e\", \"Canada\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"Chile\": \"#2ca02c\", \"China\": \"#e377c2\", \"Colombia\": \"#e377c2\", \"Confirmed, Greece\": \"#1f77b4\", \"Confirmed, United States\": \"#2ca02c\", \"Congo\": \"#17becf\", \"Costa\": \"#2ca02c\", \"Cote\": \"#bcbd22\", \"Croatia\": \"#d62728\", \"Cruise\": \"#9467bd\", \"Cuba\": \"#9467bd\", \"Cyprus\": \"#d62728\", \"Czechia\": \"#1f77b4\", \"Deaths\": \"#17becf\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Deaths, United States\": \"#9467bd\", \"Denmark\": \"#bcbd22\", \"Diamond\": \"#2ca02c\", \"Djibouti\": \"#9467bd\", \"Dominican\": \"#8c564b\", \"Ecuador\": \"#17becf\", \"Egypt\": \"#2ca02c\", \"Estonia\": \"#8c564b\", \"Finland\": \"#ff7f0e\", \"France\": \"#d62728\", \"Georgia\": \"#bcbd22\", \"Germany\": \"#9467bd\", \"Ghana\": \"#d62728\", \"Greece\": \"#bcbd22\", \"Guinea\": \"#7f7f7f\", \"Honduras\": \"#ff7f0e\", \"Hungary\": \"#8c564b\", \"Iceland\": \"#7f7f7f\", \"India\": \"#e377c2\", \"Indonesia\": \"#1f77b4\", \"Iran\": \"#17becf\", \"Iraq\": \"#7f7f7f\", \"Ireland\": \"#ff7f0e\", \"Israel\": \"#1f77b4\", \"Italy\": \"#ff7f0e\", \"Japan\": \"#9467bd\", \"Jordan\": \"#d62728\", \"Kazakhstan\": \"#bcbd22\", \"Kenya\": \"#e377c2\", \"Korea,\": \"#9467bd\", \"Korea, South\": \"#2ca02c\", \"Kosovo\": \"#1f77b4\", \"Kuwait\": \"#9467bd\", \"Kyrgyzstan\": \"#bcbd22\", \"Latvia\": \"#e377c2\", \"Lebanon\": \"#17becf\", \"Lithuania\": \"#ff7f0e\", \"Luxembourg\": \"#bcbd22\", \"MAX(confirmed)\": \"#e377c2\", \"MAX(deaths)\": \"#7f7f7f\", \"Malaysia\": \"#7f7f7f\", \"Malta\": \"#2ca02c\", \"Mauritius\": \"#e377c2\", \"Mexico\": \"#9467bd\", \"Moldova\": \"#9467bd\", \"Montenegro\": \"#7f7f7f\", \"Morocco\": \"#e377c2\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\", \"Netherlands\": \"#1f77b4\", \"New\": \"#1f77b4\", \"Niger\": \"#1f77b4\", \"Nigeria\": \"#17becf\", \"North\": \"#8c564b\", \"Norway\": \"#8c564b\", \"Oman\": \"#7f7f7f\", \"Others\": \"#1f77b4\", \"Pakistan\": \"#d62728\", \"Panama\": \"#1f77b4\", \"Peru\": \"#8c564b\", \"Philippines\": \"#d62728\", \"Poland\": \"#ff7f0e\", \"Portugal\": \"#8c564b\", \"Qatar\": \"#d62728\", \"Recovered\": \"#8c564b\", \"Recovered, Greece\": \"#ff7f0e\", \"Recovered, United States\": \"#d62728\", \"Republic\": \"#d62728\", \"Romania\": \"#9467bd\", \"Russia\": \"#ff7f0e\", \"Rwanda\": \"#8c564b\", \"San\": \"#2ca02c\", \"Saudi\": \"#17becf\", \"Senegal\": \"#2ca02c\", \"Serbia\": \"#e377c2\", \"Singapore\": \"#ff7f0e\", \"Slovakia\": \"#17becf\", \"Slovenia\": \"#17becf\", \"South\": \"#2ca02c\", \"Spain\": \"#2ca02c\", \"Sri\": \"#ff7f0e\", \"Sweden\": \"#8c564b\", \"Switzerland\": \"#9467bd\", \"Taiwan*\": \"#17becf\", \"Thailand\": \"#17becf\", \"Tunisia\": \"#d62728\", \"Turkey\": \"#bcbd22\", \"UK\": \"#e377c2\", \"US-CA\": \"#ff7f0e\", \"US-CT\": \"#8c564b\", \"US-FL\": \"#2ca02c\", \"US-IL\": \"#bcbd22\", \"US-LA\": \"#d62728\", \"US-MA\": \"#bcbd22\", \"US-MI\": \"#17becf\", \"US-NJ\": \"#1f77b4\", \"US-NY\": \"#7f7f7f\", \"US-PA\": \"#9467bd\", \"US-WA\": \"#e377c2\", \"Ukraine\": \"#7f7f7f\", \"United\": \"#7f7f7f\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"Uruguay\": \"#9467bd\", \"Uzbekistan\": \"#bcbd22\", \"Vietnam\": \"#d62728\", \"West\": \"#ff7f0e\", \"deaths\": \"#ff7f0e\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#8c564b\"}, \"limit\": 10, \"log_scale\": false, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 726, \"is_dttm\": false, \"optionName\": \"_col_confirmed\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Confirmed Cases\", \"optionName\": \"metric_tx7gpiperw_3bmyj8n55hj\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 725, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_ab9akv9lwxp_dv2qmem7asa\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": true, \"partition_limit\": 10, \"partition_threshold\": 0.05, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 50000, \"slice_id\": 447, \"time_range\": \"100 years ago : \", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"time_series_option\": \"not_time\", \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"partition\", \"remote_id\": 447, \"datasource_name\": \"Untitled Query 2-StUl_Tunx\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "By State",
+                            "viz_type": "partition"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Superset Admin-usa_bystate-VFT7nFVZb",
+                            "datasource_type": "table",
+                            "id": 448,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": [\"Greece\"], \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9650ft2b3s9_88hfsn0j9zc\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"in\", \"sqlExpression\": null, \"subject\": \"country\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"comparison_type\": null, \"contribution\": false, \"datasource\": \"39__table\", \"granularity_sqla\": \"file_date\", \"groupby\": [\"country\"], \"label_colors\": {\"Austria\": \"#e377c2\", \"Belgium\": \"#2ca02c\", \"Brazil\": \"#d62728\", \"Canada\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"China\": \"#e377c2\", \"Confirmed, Greece\": \"#1f77b4\", \"Confirmed, United States\": \"#2ca02c\", \"Deaths\": \"#17becf\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Deaths, United States\": \"#9467bd\", \"Denmark\": \"#bcbd22\", \"Ecuador\": \"#17becf\", \"France\": \"#d62728\", \"Germany\": \"#9467bd\", \"India\": \"#e377c2\", \"Indonesia\": \"#1f77b4\", \"Iran\": \"#17becf\", \"Ireland\": \"#ff7f0e\", \"Israel\": \"#1f77b4\", \"Italy\": \"#ff7f0e\", \"Korea,\": \"#9467bd\", \"Korea, South\": \"#2ca02c\", \"MAX(confirmed)\": \"#e377c2\", \"MAX(deaths)\": \"#7f7f7f\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\", \"Netherlands\": \"#1f77b4\", \"Norway\": \"#8c564b\", \"Philippines\": \"#d62728\", \"Portugal\": \"#8c564b\", \"Recovered\": \"#8c564b\", \"Recovered, Greece\": \"#ff7f0e\", \"Recovered, United States\": \"#d62728\", \"Republic\": \"#d62728\", \"Romania\": \"#9467bd\", \"Russia\": \"#ff7f0e\", \"South\": \"#2ca02c\", \"Spain\": \"#2ca02c\", \"Sweden\": \"#8c564b\", \"Switzerland\": \"#9467bd\", \"Turkey\": \"#bcbd22\", \"US-CA\": \"#ff7f0e\", \"US-CT\": \"#8c564b\", \"US-FL\": \"#2ca02c\", \"US-IL\": \"#bcbd22\", \"US-LA\": \"#d62728\", \"US-MA\": \"#bcbd22\", \"US-MI\": \"#17becf\", \"US-NJ\": \"#1f77b4\", \"US-NY\": \"#7f7f7f\", \"US-PA\": \"#9467bd\", \"US-WA\": \"#e377c2\", \"United\": \"#7f7f7f\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"deaths\": \"#ff7f0e\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#8c564b\"}, \"left_margin\": \"auto\", \"limit\": null, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 744, \"is_dttm\": false, \"optionName\": \"_col_confirmed\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Confirmed\", \"optionName\": \"metric_jmdcpk4sx_on8gsa92j6j\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 745, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_fj1zonouim_a8vremq9uww\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 746, \"is_dttm\": false, \"optionName\": \"_col_recovered\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Recovered\", \"optionName\": \"metric_cyr2yl5xdvs_v5d9ak0qs6s\", \"sqlExpression\": null}], \"order_desc\": false, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_periods\": 7, \"rolling_type\": null, \"row_limit\": 50000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 448, \"time_compare\": [], \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"450\\\": {\\\"country\\\": [\\\"United Kingdom\\\"], \\\"__time_range\\\": \\\"100 years ago : \\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": true, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": true, \"y_log_scale\": false, \"remote_id\": 448, \"datasource_name\": \"Superset Admin-usa_bystate-VFT7nFVZb\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "Daily cases",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Superset Admin-usa_bystate-VFT7nFVZb",
+                            "datasource_type": "table",
+                            "id": 449,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": [\"United States\"], \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_9650ft2b3s9_88hfsn0j9zc\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"in\", \"sqlExpression\": null, \"subject\": \"country\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"comparison_type\": null, \"contribution\": false, \"datasource\": \"39__table\", \"granularity_sqla\": \"file_date\", \"groupby\": [\"country\"], \"label_colors\": {\"Algeria\": \"#1f77b4\", \"Austria\": \"#e377c2\", \"Belgium\": \"#2ca02c\", \"Brazil\": \"#d62728\", \"Canada\": \"#7f7f7f\", \"Cases\": \"#bcbd22\", \"Cases, Germany\": \"#1f77b4\", \"Cases, Greece\": \"#ff7f0e\", \"Cases, Italy\": \"#2ca02c\", \"Cases, Netherlands\": \"#d62728\", \"Cases, Portugal\": \"#9467bd\", \"Cases, Spain\": \"#8c564b\", \"Cases, Sweden\": \"#e377c2\", \"Cases, United Kingdom\": \"#7f7f7f\", \"China\": \"#e377c2\", \"Confirmed, Greece\": \"#1f77b4\", \"Confirmed, United States\": \"#2ca02c\", \"Deaths\": \"#17becf\", \"Deaths, Germany\": \"#bcbd22\", \"Deaths, Greece\": \"#17becf\", \"Deaths, Italy\": \"#1f77b4\", \"Deaths, Netherlands\": \"#ff7f0e\", \"Deaths, Portugal\": \"#2ca02c\", \"Deaths, Spain\": \"#d62728\", \"Deaths, Sweden\": \"#9467bd\", \"Deaths, United Kingdom\": \"#8c564b\", \"Deaths, United States\": \"#9467bd\", \"Denmark\": \"#bcbd22\", \"Ecuador\": \"#17becf\", \"France\": \"#d62728\", \"Germany\": \"#9467bd\", \"India\": \"#e377c2\", \"Indonesia\": \"#1f77b4\", \"Iran\": \"#17becf\", \"Ireland\": \"#ff7f0e\", \"Israel\": \"#1f77b4\", \"Italy\": \"#ff7f0e\", \"Korea,\": \"#9467bd\", \"Korea, South\": \"#2ca02c\", \"MAX(confirmed)\": \"#e377c2\", \"MAX(deaths)\": \"#7f7f7f\", \"Mortality %, Germany\": \"#e377c2\", \"Mortality %, Greece\": \"#7f7f7f\", \"Mortality %, Italy\": \"#bcbd22\", \"Mortality %, Netherlands\": \"#17becf\", \"Mortality %, Portugal\": \"#1f77b4\", \"Mortality %, Spain\": \"#ff7f0e\", \"Mortality %, Sweden\": \"#2ca02c\", \"Mortality %, United Kingdom\": \"#d62728\", \"Netherlands\": \"#1f77b4\", \"Norway\": \"#8c564b\", \"Philippines\": \"#d62728\", \"Portugal\": \"#8c564b\", \"Recovered\": \"#8c564b\", \"Recovered, Greece\": \"#ff7f0e\", \"Recovered, United States\": \"#d62728\", \"Republic\": \"#d62728\", \"Romania\": \"#9467bd\", \"Russia\": \"#ff7f0e\", \"South\": \"#2ca02c\", \"Spain\": \"#2ca02c\", \"Sweden\": \"#8c564b\", \"Switzerland\": \"#9467bd\", \"Turkey\": \"#bcbd22\", \"US-CA\": \"#ff7f0e\", \"US-CT\": \"#8c564b\", \"US-FL\": \"#2ca02c\", \"US-IL\": \"#bcbd22\", \"US-LA\": \"#d62728\", \"US-MA\": \"#bcbd22\", \"US-MI\": \"#17becf\", \"US-NJ\": \"#1f77b4\", \"US-NY\": \"#7f7f7f\", \"US-PA\": \"#9467bd\", \"US-WA\": \"#e377c2\", \"United\": \"#7f7f7f\", \"United Kingdom\": \"#e377c2\", \"United States\": \"#7f7f7f\", \"deaths\": \"#ff7f0e\", \"in-treatment\": \"#1f77b4\", \"recovered\": \"#8c564b\"}, \"left_margin\": \"auto\", \"limit\": null, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"confirmed\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 744, \"is_dttm\": false, \"optionName\": \"_col_confirmed\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Confirmed\", \"optionName\": \"metric_jmdcpk4sx_on8gsa92j6j\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 745, \"is_dttm\": false, \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_fj1zonouim_a8vremq9uww\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"recovered\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 746, \"is_dttm\": false, \"optionName\": \"_col_recovered\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Recovered\", \"optionName\": \"metric_cyr2yl5xdvs_v5d9ak0qs6s\", \"sqlExpression\": null}], \"order_desc\": false, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_periods\": 7, \"rolling_type\": null, \"row_limit\": 50000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 449, \"time_compare\": [], \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"450\\\": {\\\"__time_range\\\": \\\"Last month\\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": true, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": true, \"y_log_scale\": false, \"remote_id\": 449, \"datasource_name\": \"Superset Admin-usa_bystate-VFT7nFVZb\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "Cases over time - USA",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Superset Admin-usa_bystate-xjzu_Lazb",
+                            "datasource_type": "table",
+                            "id": 450,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"40__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"country\", \"key\": \"R46L5Ffb4\", \"label\": \"Country\", \"multiple\": true}], \"granularity_sqla\": \"file_date\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 450, \"time_range\": \"Last quarter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {\"preselect_filters\": \"{\\\"450\\\": {\\\"__time_range\\\": \\\"Last month\\\"}}\"}, \"viz_type\": \"filter_box\", \"remote_id\": 450, \"datasource_name\": \"Superset Admin-usa_bystate-xjzu_Lazb\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "Filter Country",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.Untitled Query 2-5aO7K_Rp8",
+                            "datasource_type": "table",
+                            "id": 446,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"36__table\", \"entity\": \"code\", \"granularity_sqla\": \"file_date\", \"linear_color_scheme\": \"schemeYlOrRd\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 711, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Deaths\", \"optionName\": \"metric_1tepszlwtzv_pbyih1sbuuk\", \"sqlExpression\": null}, \"number_format\": \"SMART_NUMBER\", \"select_country\": \"Usa\", \"slice_id\": 446, \"time_range\": \"Last 7 days\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"country_map\", \"remote_id\": 446, \"datasource_name\": \"Untitled Query 2-5aO7K_Rp8\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
+                            "slice_name": "USA",
+                            "viz_type": "country_map"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "sum",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 747,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 748,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 749,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 750,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 751,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 752,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 48,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 40,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 40, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "select * from covid_pdf",
+                "table_name": "Superset Admin-usa_bystate-xjzu_Lazb",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 551,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "column_name": "target",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 552,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "column_name": "value_final",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 553,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 22,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:34:37"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 30,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 22,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 22, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "select * from sunkey",
+                "table_name": "Untitled Query 3-lQaesLISJ",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 598,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 599,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 600,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 601,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 602,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "column_name": "Mortality_ratio",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 603,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 27,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T18:11:20"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 35,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 27,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 27, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\r\n\r\nSELECT file_date, country, confirmed , deaths, covid_lookup.population, deaths/confirmed/1.0 as \"Mortality_ratio\"  from covid19 , covid_lookup \r\nwhere covid19.country  = covid_lookup.country_region \r\nand covid19.country IN ('Greece', 'Italy', 'Spain', 'United Kingdom', 'Portugal', 'Germany', 'Netherlands', 'Sweden')",
+                "table_name": "Superset Admin-Untitled Query 2-j49If8fg5O",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 580,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 581,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 582,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 583,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 584,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 585,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 586,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 587,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 588,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 589,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 590,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 591,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 592,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 25,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-08T17:54:29"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 33,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 25,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 25, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "select * from covid19",
+                "table_name": "Untitled Query 3-g_qNnjUZHE",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "sum",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 741,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 742,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 743,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 744,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 745,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 746,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 39,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T11:57:51"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 47,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 39,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 39, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "select * from covid_pdf",
+                "table_name": "Superset Admin-usa_bystate-VFT7nFVZb",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 721,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 722,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "iso2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 723,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "iso3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 724,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 725,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 726,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 727,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 728,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 729,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 730,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 731,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 732,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 733,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 734,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 45,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 37,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 37, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nselect concat('US-', abbr) as code, state, iso2, iso3, deaths , confirmed , recovered , country , province , covid19.admin2, latitude , longitude, population ,file_date  \nfrom covid_lookup, covid19\n, state_abbreviation abbrvs\n\nwhere \ncovid_lookup.province_state = covid19.province\nAND country_region = 'US'\nand\ncountry = 'United States'\nand abbrvs.state = covid19.province",
+                "table_name": "Untitled Query 2-StUl_Tunx",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 707,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 708,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "iso2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 709,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "iso3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 710,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 711,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 712,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 713,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 714,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 715,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 716,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 717,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 718,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 719,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 720,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:30:46"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 44,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 36,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 36, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nselect concat('US-', abbr) as code, state, iso2, iso3, deaths , confirmed , recovered , country , province , covid19.admin2, latitude , longitude, population ,file_date  \nfrom covid_lookup, covid19\n, state_abbreviation abbrvs\n\nwhere \ncovid_lookup.province_state = covid19.province\nAND country_region = 'US'\nand\ncountry = 'United States'\nand abbrvs.state = covid19.province",
+                "table_name": "Untitled Query 2-5aO7K_Rp8",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 643,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 644,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 645,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 646,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 647,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 648,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 649,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 650,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 651,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 652,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 653,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 654,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 655,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 39,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 31,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 31, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "SELECT *\nFROM covid19",
+                "table_name": "Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 617,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 618,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 619,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 620,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 621,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 622,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 623,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 624,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 625,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 626,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 627,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 628,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 629,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 37,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 29,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 29, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "SELECT *\nFROM covid19",
+                "table_name": "Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 630,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 631,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 632,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 633,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 634,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 635,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 636,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 637,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 638,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 639,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 640,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 641,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 642,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 38,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 30,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 30, \"database_name\": \"examples\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nSELECT * from covid19\nwhere country = 'Greece'",
+                "table_name": "Untitled Query 2-LWJaioi7W",
+                "template_params": null
+            }
+        }
+    ]
+}
