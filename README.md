@@ -41,7 +41,7 @@ The dashboard fetches global data as published in the daily report by [CSSE COVI
     4. Performs post-processing on the data to fix various schema migrations in the raw data occurred on Feb-29, Mar-22, Apr-01
 3. Add this entry to your crontab to allow daily data loading:
 
-     ```echo "00,15,30,45 20,21 * * * ~/data/data_import.sh" | crontab```
+     ```echo "00,15,30,45 * * * * ${PWD}/data_import.sh" | crontab -```
 
 
 4. Open Superset http://localhost:8088 (username/password admin/admin), add a new Source Database named **Covid19** with the following sqlalchemy string ```postgresql://superset:superset@db:5432/superset```

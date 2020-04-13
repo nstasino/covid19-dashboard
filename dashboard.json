@@ -102,7 +102,7 @@
                             "datasource_name": "public.Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T",
                             "datasource_type": "table",
                             "id": 445,
-                            "params": "{\"adhoc_filters\": [], \"country_fieldtype\": \"name\", \"datasource\": \"24__table\", \"entity\": \"country\", \"granularity_sqla\": \"file_date\", \"max_bubble_size\": \"25\", \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_axb6lfoiww_yyjv72kk1xa\", \"sqlExpression\": null}, \"row_limit\": 50000, \"secondary_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_3nqk3nqhkcg_mcb0z34fzt\", \"sqlExpression\": null}, \"show_bubbles\": true, \"slice_id\": 99, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"world_map\", \"remote_id\": 445, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T\", \"schema\": \"public\", \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                            "params": "{\"adhoc_filters\": [], \"country_fieldtype\": \"name\", \"datasource\": \"29__table\", \"entity\": \"country\", \"granularity_sqla\": \"file_date\", \"max_bubble_size\": \"25\", \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"SUM(deaths)\", \"optionName\": \"metric_axb6lfoiww_yyjv72kk1xa\", \"sqlExpression\": null}, \"row_limit\": 50000, \"secondary_metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"deaths\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 555, \"is_dttm\": false, \"optionName\": \"_col_deaths\", \"type\": \"INT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(deaths)\", \"optionName\": \"metric_3nqk3nqhkcg_mcb0z34fzt\", \"sqlExpression\": null}, \"show_bubbles\": true, \"slice_id\": 445, \"time_range\": \"Last day\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"world_map\", \"remote_id\": 445, \"datasource_name\": \"Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T\", \"schema\": \"public\", \"database_name\": \"Covid19\"}",
                             "slice_name": "Deaths Worldwide",
                             "viz_type": "world_map"
                         }
@@ -176,22 +176,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "sum",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 747,
+                            "id": 741,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "INT",
                             "verbose_name": null
                         }
@@ -200,22 +200,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "file_date",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 748,
+                            "id": 742,
                             "is_active": true,
                             "is_dttm": true,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "DATETIME",
                             "verbose_name": null
                         }
@@ -224,22 +224,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "country",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 749,
+                            "id": 743,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "STRING",
                             "verbose_name": null
                         }
@@ -248,22 +248,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "confirmed",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 750,
+                            "id": 744,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "INT",
                             "verbose_name": null
                         }
@@ -272,22 +272,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "deaths",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 751,
+                            "id": 745,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "INT",
                             "verbose_name": null
                         }
@@ -296,22 +296,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "column_name": "recovered",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 752,
+                            "id": 746,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "type": "INT",
                             "verbose_name": null
                         }
@@ -328,29 +328,29 @@
                         "__SqlMetric__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T12:20:26"
+                                "__datetime__": "2020-04-09T11:57:51"
                             },
                             "d3format": null,
                             "description": null,
                             "expression": "count(*)",
-                            "id": 48,
+                            "id": 47,
                             "metric_name": "count",
                             "metric_type": null,
-                            "table_id": 40,
+                            "table_id": 39,
                             "verbose_name": null,
                             "warning_text": null
                         }
                     }
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 40, \"database_name\": \"Covid19\"}",
+                "params": "{\"remote_id\": 39, \"database_name\": \"Covid19\"}",
                 "schema": "public",
                 "sql": "select * from covid_pdf",
-                "table_name": "Superset Admin-usa_bystate-xjzu_Lazb",
+                "table_name": "Superset Admin-usa_bystate-VFT7nFVZb",
                 "template_params": null
             }
         },
@@ -651,6 +651,1278 @@
                 "schema": "public",
                 "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\r\n\r\nSELECT file_date, country, confirmed , deaths, covid_lookup.population, deaths/confirmed/1.0 as \"Mortality_ratio\"  from covid19 , covid_lookup \r\nwhere covid19.country  = covid_lookup.country_region \r\nand covid19.country IN ('Greece', 'Italy', 'Spain', 'United Kingdom', 'Portugal', 'Germany', 'Netherlands', 'Sweden')",
                 "table_name": "Superset Admin-Untitled Query 2-j49If8fg5O",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 630,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 631,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 632,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 633,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 634,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 635,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 636,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 637,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 638,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 639,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 640,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 641,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 642,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 30,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 38,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 30,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 30, \"database_name\": \"examples\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nSELECT * from covid19\nwhere country = 'Greece'",
+                "table_name": "Untitled Query 2-LWJaioi7W",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "fips",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 617,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 618,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 619,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 620,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 621,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 622,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 623,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 624,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 625,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 626,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 627,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 628,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 629,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 29,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:35"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 37,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 29,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 29, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
+                "schema": "public",
+                "sql": "SELECT *\nFROM covid19",
+                "table_name": "Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "sum",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 747,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 748,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 749,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 750,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 751,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 752,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T12:20:26"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 48,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 40,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 40, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "select * from covid_pdf",
+                "table_name": "Superset Admin-usa_bystate-xjzu_Lazb",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "state",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 722,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "iso2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 723,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "iso3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 724,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "deaths",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 725,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "confirmed",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 726,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 727,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 728,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 729,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "admin2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 730,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 731,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 732,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "FLOAT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "population",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 733,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 734,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-13T09:32:34"
+                            },
+                            "column_name": "code",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 721,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 37,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:33:34"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "id": 45,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 37,
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 37, \"database_name\": \"Covid19\"}",
+                "schema": "public",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nselect concat('US-', abbr) as code, state, iso2, iso3, deaths , confirmed , recovered , country , province , covid19.admin2, latitude , longitude, population ,file_date  \nfrom covid_lookup, covid19\n, state_abbreviation abbrvs\n\nwhere \ncovid_lookup.province_state = covid19.province\nAND country_region = 'US'\nand\ncountry = 'United States'\nand abbrvs.state = covid19.province",
+                "table_name": "Untitled Query 2-StUl_Tunx",
                 "template_params": null
             }
         },
@@ -1016,23 +2288,23 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
-                            "column_name": "sum",
+                            "column_name": "fips",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 741,
+                            "id": 643,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 39,
-                            "type": "INT",
+                            "table_id": 31,
+                            "type": null,
                             "verbose_name": null
                         }
                     },
@@ -1040,400 +2312,46 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "column_name": "file_date",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 742,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 39,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "column_name": "country",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 743,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 39,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "column_name": "confirmed",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 744,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 39,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "column_name": "deaths",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 745,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 39,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "column_name": "recovered",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 746,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 39,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    }
-                ],
-                "database_id": 2,
-                "default_endpoint": null,
-                "description": null,
-                "fetch_values_predicate": null,
-                "filter_select_enabled": false,
-                "main_dttm_col": null,
-                "metrics": [
-                    {
-                        "__SqlMetric__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T11:57:51"
-                            },
-                            "d3format": null,
-                            "description": null,
-                            "expression": "count(*)",
-                            "id": 47,
-                            "metric_name": "count",
-                            "metric_type": null,
-                            "table_id": 39,
-                            "verbose_name": null,
-                            "warning_text": null
-                        }
-                    }
-                ],
-                "offset": 0,
-                "params": "{\"remote_id\": 39, \"database_name\": \"Covid19\"}",
-                "schema": "public",
-                "sql": "select * from covid_pdf",
-                "table_name": "Superset Admin-usa_bystate-VFT7nFVZb",
-                "template_params": null
-            }
-        },
-        {
-            "__SqlaTable__": {
-                "cache_timeout": null,
-                "columns": [
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "code",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 721,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "state",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 722,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "iso2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 723,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "iso3",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 724,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "deaths",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 725,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "confirmed",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 726,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "recovered",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 727,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "country",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 728,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "column_name": "province",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 729,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 37,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "column_name": "admin2",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 730,
+                            "id": 644,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 37,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "province",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 645,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
                             "type": "STRING",
                             "verbose_name": null
                         }
@@ -1442,22 +2360,46 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 646,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "column_name": "latitude",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 731,
+                            "id": 647,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 37,
+                            "table_id": 31,
                             "type": "FLOAT",
                             "verbose_name": null
                         }
@@ -1466,22 +2408,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "column_name": "longitude",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 732,
+                            "id": 648,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 37,
+                            "table_id": 31,
                             "type": "FLOAT",
                             "verbose_name": null
                         }
@@ -1490,22 +2432,22 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
-                            "column_name": "population",
+                            "column_name": "confirmed",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 733,
+                            "id": 649,
                             "is_active": true,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 37,
+                            "table_id": 31,
                             "type": "INT",
                             "verbose_name": null
                         }
@@ -1514,22 +2456,142 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
-                            "column_name": "file_date",
+                            "column_name": "deaths",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 734,
+                            "id": 650,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "recovered",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 651,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": "INT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "active",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 652,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "combined_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 653,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 31,
+                            "type": null,
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "last_update",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 654,
                             "is_active": true,
                             "is_dttm": true,
                             "python_date_format": null,
-                            "table_id": 37,
+                            "table_id": 31,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "column_name": "file_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-04-09T08:03:36"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 655,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 31,
                             "type": "DATETIME",
                             "verbose_name": null
                         }
@@ -1546,29 +2608,29 @@
                         "__SqlMetric__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2020-04-09T08:33:34"
+                                "__datetime__": "2020-04-09T08:03:36"
                             },
                             "d3format": null,
                             "description": null,
                             "expression": "count(*)",
-                            "id": 45,
+                            "id": 39,
                             "metric_name": "count",
                             "metric_type": null,
-                            "table_id": 37,
+                            "table_id": 31,
                             "verbose_name": null,
                             "warning_text": null
                         }
                     }
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 37, \"database_name\": \"Covid19\"}",
+                "params": "{\"remote_id\": 31, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
                 "schema": "public",
-                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nselect concat('US-', abbr) as code, state, iso2, iso3, deaths , confirmed , recovered , country , province , covid19.admin2, latitude , longitude, population ,file_date  \nfrom covid_lookup, covid19\n, state_abbreviation abbrvs\n\nwhere \ncovid_lookup.province_state = covid19.province\nAND country_region = 'US'\nand\ncountry = 'United States'\nand abbrvs.state = covid19.province",
-                "table_name": "Untitled Query 2-StUl_Tunx",
+                "sql": "SELECT *\nFROM covid19",
+                "table_name": "Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
                 "template_params": null
             }
         },
@@ -1947,1068 +3009,6 @@
                 "schema": "public",
                 "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nselect concat('US-', abbr) as code, state, iso2, iso3, deaths , confirmed , recovered , country , province , covid19.admin2, latitude , longitude, population ,file_date  \nfrom covid_lookup, covid19\n, state_abbreviation abbrvs\n\nwhere \ncovid_lookup.province_state = covid19.province\nAND country_region = 'US'\nand\ncountry = 'United States'\nand abbrvs.state = covid19.province",
                 "table_name": "Untitled Query 2-5aO7K_Rp8",
-                "template_params": null
-            }
-        },
-        {
-            "__SqlaTable__": {
-                "cache_timeout": null,
-                "columns": [
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "fips",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 643,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "admin2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 644,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "province",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 645,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "country",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 646,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "latitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 647,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "longitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 648,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "confirmed",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 649,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "deaths",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 650,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "recovered",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 651,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "active",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 652,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "combined_key",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 653,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "last_update",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 654,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "file_date",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 655,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 31,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    }
-                ],
-                "database_id": 2,
-                "default_endpoint": null,
-                "description": null,
-                "fetch_values_predicate": null,
-                "filter_select_enabled": false,
-                "main_dttm_col": null,
-                "metrics": [
-                    {
-                        "__SqlMetric__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "d3format": null,
-                            "description": null,
-                            "expression": "count(*)",
-                            "id": 39,
-                            "metric_name": "count",
-                            "metric_type": null,
-                            "table_id": 31,
-                            "verbose_name": null,
-                            "warning_text": null
-                        }
-                    }
-                ],
-                "offset": 0,
-                "params": "{\"remote_id\": 31, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
-                "schema": "public",
-                "sql": "SELECT *\nFROM covid19",
-                "table_name": "Query public.Untitled Query 3-lQaesLISJ-IEF8Ds4t4",
-                "template_params": null
-            }
-        },
-        {
-            "__SqlaTable__": {
-                "cache_timeout": null,
-                "columns": [
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "fips",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 617,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "admin2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 618,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "province",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 619,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "country",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 620,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "latitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 621,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "longitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 622,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "column_name": "confirmed",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 623,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "deaths",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 624,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "recovered",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 625,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "active",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 626,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "combined_key",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 627,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "last_update",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 628,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "file_date",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 629,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 29,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    }
-                ],
-                "database_id": 2,
-                "default_endpoint": null,
-                "description": null,
-                "fetch_values_predicate": null,
-                "filter_select_enabled": false,
-                "main_dttm_col": null,
-                "metrics": [
-                    {
-                        "__SqlMetric__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:35"
-                            },
-                            "d3format": null,
-                            "description": null,
-                            "expression": "count(*)",
-                            "id": 37,
-                            "metric_name": "count",
-                            "metric_type": null,
-                            "table_id": 29,
-                            "verbose_name": null,
-                            "warning_text": null
-                        }
-                    }
-                ],
-                "offset": 0,
-                "params": "{\"remote_id\": 29, \"database_name\": \"Covid19\", \"import_time\": 1586419415}",
-                "schema": "public",
-                "sql": "SELECT *\nFROM covid19",
-                "table_name": "Query public.Untitled Query 3-lQaesLISJ-FfYJTQH_T",
-                "template_params": null
-            }
-        },
-        {
-            "__SqlaTable__": {
-                "cache_timeout": null,
-                "columns": [
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "fips",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 630,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "admin2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 631,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "province",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 632,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": null,
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "country",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 633,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "latitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 634,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "longitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 635,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "FLOAT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "confirmed",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 636,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "deaths",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 637,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "recovered",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 638,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "active",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 639,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "INT",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "combined_key",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 640,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "STRING",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "last_update",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 641,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "column_name": "file_date",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 642,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 30,
-                            "type": "DATETIME",
-                            "verbose_name": null
-                        }
-                    }
-                ],
-                "database_id": 1,
-                "default_endpoint": null,
-                "description": null,
-                "fetch_values_predicate": null,
-                "filter_select_enabled": false,
-                "main_dttm_col": null,
-                "metrics": [
-                    {
-                        "__SqlMetric__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2020-04-09T08:03:36"
-                            },
-                            "d3format": null,
-                            "description": null,
-                            "expression": "count(*)",
-                            "id": 38,
-                            "metric_name": "count",
-                            "metric_type": null,
-                            "table_id": 30,
-                            "verbose_name": null,
-                            "warning_text": null
-                        }
-                    }
-                ],
-                "offset": 0,
-                "params": "{\"remote_id\": 30, \"database_name\": \"examples\", \"import_time\": 1586419415}",
-                "schema": "public",
-                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nSELECT * from covid19\nwhere country = 'Greece'",
-                "table_name": "Untitled Query 2-LWJaioi7W",
                 "template_params": null
             }
         }
