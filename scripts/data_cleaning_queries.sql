@@ -85,3 +85,27 @@ covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
 update covid19
 set country = 'United States'
 where country = 'US';
+
+-- Fix old US province
+
+with clean_province 
+as
+(
+select distinct  
+case 
+when array_length(regexp_split_to_array(province, ','),1) = 1
+then province
+when array_length(regexp_split_to_array(province, ','),1) = 2
+then (select state_abbreviation.state 
+from 
+state_abbreviation
+where 
+trim((regexp_split_to_array(province, ','))[2]) = abbr)
+end province,
+province as province_old
+from covid19 where country = 'United States')
+update covid19
+set province = clean_province.province
+from clean_province
+where 
+covid19.province = clean_province.province_old;
