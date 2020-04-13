@@ -81,30 +81,30 @@ DROP VIEW public.sunkey;
 
 CREATE OR REPLACE VIEW public.sunkey AS
  WITH totals AS (
-         SELECT covid19.country,
-            max(covid19.confirmed) AS confirmed,
-            max(covid19.deaths) AS deaths,
-            max(covid19.recovered) AS recovered
+         SELECT covid19.country,file_date,
+            sum(covid19.confirmed) AS confirmed,
+            sum(covid19.deaths) AS deaths,
+            sum(covid19.recovered) AS recovered
            FROM covid19
-          GROUP BY covid19.country
+          GROUP BY covid19.country,file_date
         )
  SELECT totals.country,
     'deaths'::text AS target,
-    totals.deaths AS value_final
+    totals.deaths AS value_final,
+    file_date
    FROM totals
 UNION
  SELECT totals.country,
     'recovered'::text AS target,
-    totals.recovered AS value_final
+    totals.recovered AS value_final,
+    file_date
    FROM totals
 UNION
  SELECT totals.country,
-    'in-treatment'::text AS target,
-    totals.confirmed - totals.deaths - totals.recovered AS value_final
+    'under treatment'::text AS target,
+    totals.confirmed - totals.deaths - totals.recovered AS value_final,
+    file_date
    FROM totals;
-
-ALTER TABLE public.sunkey
-    OWNER TO superset;
 
 
 
