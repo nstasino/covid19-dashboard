@@ -40,14 +40,43 @@ from covid_lookup
 where country = 'South Korea' and covid_lookup.country_region = 'Korea, South' and  
 covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
 
+-- UK 
 
-
--- Taiwan 
 update covid19 
 set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
 from covid_lookup
-where country = 'Taiwan' and covid_lookup.country_region = 'Taiwan*' and  
+where country = 'UK' and covid_lookup.country_region = 'United Kingdom'and  
 covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+
+-- Czechia
+update covid19
+set country = 'Czech Republic'
+where country = 'Czechia';
+
+-- Taiwan 
+-- see https://www.axios.com/johns-hopkins-coronavirus-map-taiwan-china-5c461906-4f1c-42e7-b78e-a4b43f4520ab.html
+
+-- Taiwan Coordinates
+update covid19 
+set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
+from covid_lookup
+where country = 'Taiwan' and covid_lookup.country_region in ('Taiwan*', 'Taipei and environs') and  
+covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+
+-- Taiwan Name
+update covid19
+set country = 'Taiwan'
+where country in ('Taiwan*', 'Taipei and environs');
+
+-- Palestine
+update covid19
+set country = 'Palestine'
+where country in ('Palestine', 'occupied Palestinian territory');
+
+-- Vietnam
+update covid19
+set country = 'Vietnam'
+where country in ('Vietnam', 'Viet Nam');
 
 -- Hong Kong, Macau 
 update covid19 
@@ -64,8 +93,33 @@ where country = 'Hong Kong' and
 province = 'Hong Kong'
 and covid_lookup.province_state = 'Hong Kong';
 
+-- Gambia
+update covid19
+set country = 'Gambia'
+where country like ('%Gambia%');
 
--- Azer 
+-- Iran
+update covid19
+set country = 'Iran'
+where country like ('%Iran%');
+
+-- South Korea'
+update covid19
+set country = 'South Korea'
+where country like ('%Korea%');
+
+
+update covid19 
+set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
+from covid_lookup
+where country = 'South Korea' and covid_lookup.country_region in ('Korea, South') and  
+covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+
+-- Azerbaijan 
+
+update covid19
+set country = 'Azerbaijan'
+where country like ('%Azerbaijan%');
 
 
 update covid19 
@@ -73,6 +127,9 @@ set latitude  = 40.1431 , longitude =47.5769
 where country = ' Azerbaijan';
 
 -- Cote d'Ivoire 
+update covid19
+set country = 'Ivory Coast'
+where country like ('Cote%');
 
 update covid19 
 set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
