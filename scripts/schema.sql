@@ -7,7 +7,7 @@ DROP TABLE public.covid19 CASCADE;
 CREATE TABLE IF NOT EXISTS public.covid19
 (
     fips character varying(20) COLLATE pg_catalog."default",
-    admin2 character varying(30) COLLATE pg_catalog."default",
+    admin2 character varying(60) COLLATE pg_catalog."default",
     province character varying(60) COLLATE pg_catalog."default",
     country character varying(60) COLLATE pg_catalog."default",
     latitude double precision,
