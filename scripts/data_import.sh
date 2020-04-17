@@ -99,7 +99,8 @@ else
     cd "${SCRIPTS_DIR}/COVID-19"
     echo "${PWD}"
 
-    if git diff --quiet origin/master; then
+    git fetch origin
+    if ! git diff --quiet origin/master; then
     	echo "Pulling update"
 	    git checkout .
 	    git pull "${CSSE_GITHUB_REPO}"

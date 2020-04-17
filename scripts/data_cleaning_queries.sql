@@ -1,168 +1,205 @@
 
-
-update covid19
-set country = 'China'
-where country = 'Mainland China';
-
-
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where province = covid_lookup.province_state and country = covid_lookup.country_region ;
+UPDATE covid19
+SET country = 'China'
+WHERE country = 'Mainland China';
 
 
--- us states 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where province = covid_lookup.province_state and country = covid_lookup.country_region and  
-covid_lookup.admin2 is NULL;
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE province = covid_lookup.province_state
+  AND country = covid_lookup.country_region ;
 
--- simple countries 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = covid_lookup.country_region and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+ -- us states
 
--- UK 
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE province = covid_lookup.province_state
+  AND country = covid_lookup.country_region
+  AND covid_lookup.admin2 IS NULL;
 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'UK' and covid_lookup.country_region = 'United Kingdom'and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+ -- simple countries
 
--- South Korea 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'South Korea' and covid_lookup.country_region = 'Korea, South' and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = covid_lookup.country_region
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
 
--- UK 
+ -- UK
 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'UK' and covid_lookup.country_region = 'United Kingdom'and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'UK'
+  AND covid_lookup.country_region = 'United Kingdom'
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
 
--- Czechia
-update covid19
-set country = 'Czech Republic'
-where country = 'Czechia';
+ -- South Korea
 
--- Taiwan 
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'South Korea'
+  AND covid_lookup.country_region = 'Korea, South'
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
+
+ -- UK
+
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'UK'
+  AND covid_lookup.country_region = 'United Kingdom'
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
+
+ -- Czechia
+
+UPDATE covid19
+SET country = 'Czech Republic'
+WHERE country = 'Czechia';
+
+ -- Taiwan
 -- see https://www.axios.com/johns-hopkins-coronavirus-map-taiwan-china-5c461906-4f1c-42e7-b78e-a4b43f4520ab.html
+ -- Taiwan Coordinates
 
--- Taiwan Coordinates
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'Taiwan' and covid_lookup.country_region in ('Taiwan*', 'Taipei and environs') and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'Taiwan'
+  AND covid_lookup.country_region IN ('Taiwan*',
+                                      'Taipei and environs')
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
 
--- Taiwan Name
-update covid19
-set country = 'Taiwan'
-where country in ('Taiwan*', 'Taipei and environs');
+ -- Taiwan Name
 
--- Palestine
-update covid19
-set country = 'Palestine'
-where country in ('Palestine', 'occupied Palestinian territory');
+UPDATE covid19
+SET country = 'Taiwan'
+WHERE country IN ('Taiwan*',
+                  'Taipei and environs');
 
--- Vietnam
-update covid19
-set country = 'Vietnam'
-where country in ('Vietnam', 'Viet Nam');
+ -- Palestine
 
--- Hong Kong, Macau 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_, country ='China'
-from covid_lookup
-where country = 'Macau' and 
-province = 'Macau'
-and covid_lookup.province_state = 'Macau';
+UPDATE covid19
+SET country = 'Palestine'
+WHERE country IN ('Palestine',
+                  'occupied Palestinian territory');
 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_, country ='China'
-from covid_lookup
-where country = 'Hong Kong' and 
-province = 'Hong Kong'
-and covid_lookup.province_state = 'Hong Kong';
+ -- Vietnam
 
--- Gambia
-update covid19
-set country = 'Gambia'
-where country like ('%Gambia%');
+UPDATE covid19
+SET country = 'Vietnam'
+WHERE country IN ('Vietnam',
+                  'Viet Nam');
 
--- Iran
-update covid19
-set country = 'Iran'
-where country like ('%Iran%');
+ -- Hong Kong, Macau
 
--- South Korea'
-update covid19
-set country = 'South Korea'
-where country like ('%Korea%');
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_,
+    country ='China'
+FROM covid_lookup
+WHERE country = 'Macau'
+  AND province = 'Macau'
+  AND covid_lookup.province_state = 'Macau';
 
 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'South Korea' and covid_lookup.country_region in ('Korea, South') and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_,
+    country ='China'
+FROM covid_lookup
+WHERE country = 'Hong Kong'
+  AND province = 'Hong Kong'
+  AND covid_lookup.province_state = 'Hong Kong';
 
--- Azerbaijan 
+ -- Gambia
 
-update covid19
-set country = 'Azerbaijan'
-where country like ('%Azerbaijan%');
+UPDATE covid19
+SET country = 'Gambia'
+WHERE country LIKE ('%Gambia%');
+
+ -- Iran
+
+UPDATE covid19
+SET country = 'Iran'
+WHERE country LIKE ('%Iran%');
+
+ -- South Korea'
+
+UPDATE covid19
+SET country = 'South Korea'
+WHERE country LIKE ('%Korea%');
 
 
-update covid19 
-set latitude  = 40.1431 , longitude =47.5769
-where country = ' Azerbaijan';
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'South Korea'
+  AND covid_lookup.country_region IN ('Korea, South')
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
 
--- Cote d'Ivoire 
-update covid19
-set country = 'Ivory Coast'
-where country like ('Cote%');
+ -- Azerbaijan
 
-update covid19 
-set latitude  = covid_lookup.lat , longitude = covid_lookup.long_ 
-from covid_lookup
-where country = 'Ivory Coast' and covid_lookup.country_region LIKE 'Cote%' and  
-covid_lookup.admin2 is NULL AND  covid_lookup.province_state iS NULL;
+UPDATE covid19
+SET country = 'Azerbaijan'
+WHERE country LIKE ('%Azerbaijan%');
 
--- US 
 
-update covid19
-set country = 'United States'
-where country = 'US';
+UPDATE covid19
+SET latitude = 40.1431 , longitude =47.5769
+WHERE country = ' Azerbaijan';
 
--- Fix old US province
+ -- Cote d'Ivoire
 
-with clean_province 
-as
-(
-select distinct  
-case 
-when array_length(regexp_split_to_array(province, ','),1) = 1
-then province
-when array_length(regexp_split_to_array(province, ','),1) = 2
-then (select state_abbreviation.state 
-from 
-state_abbreviation
-where 
-trim((regexp_split_to_array(province, ','))[2]) = abbr)
-end province,
-province as province_old
-from covid19 where country = 'United States')
-update covid19
-set province = clean_province.province
-from clean_province
-where 
-covid19.province = clean_province.province_old;
+UPDATE covid19
+SET country = 'Ivory Coast'
+WHERE country LIKE ('Cote%');
+
+
+UPDATE covid19
+SET latitude = covid_lookup.lat ,
+    longitude = covid_lookup.long_
+FROM covid_lookup
+WHERE country = 'Ivory Coast'
+  AND covid_lookup.country_region LIKE 'Cote%'
+  AND covid_lookup.admin2 IS NULL
+  AND covid_lookup.province_state IS NULL;
+
+ -- US
+
+UPDATE covid19
+SET country = 'United States'
+WHERE country = 'US';
+
+ -- Fix old US province
+ WITH clean_province AS
+  (SELECT DISTINCT CASE
+                       WHEN array_length(regexp_split_to_array(province, ','),1) = 1 THEN province
+                       WHEN array_length(regexp_split_to_array(province, ','),1) = 2 THEN
+                              (SELECT state_abbreviation.state
+                               FROM state_abbreviation
+                               WHERE trim((regexp_split_to_array(province, ','))[2]) = abbr)
+                   END province,
+                       province AS province_old
+   FROM covid19
+   WHERE country = 'United States')
+UPDATE covid19
+SET province = clean_province.province
+FROM clean_province
+WHERE covid19.province = clean_province.province_old;
