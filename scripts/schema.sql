@@ -18,7 +18,9 @@ CREATE TABLE IF NOT EXISTS public.covid19
     active integer,
     combined_key character varying(120) COLLATE pg_catalog."default",
     last_update timestamp without time zone,
-    file_date date DEFAULT '2020-04-07'::date
+    file_date date DEFAULT '2020-04-07'::date,
+    "Incidence_Rate" double precision,
+    "Case-Fatality_Ratio" double precision 
 )
 WITH (
     OIDS = FALSE
