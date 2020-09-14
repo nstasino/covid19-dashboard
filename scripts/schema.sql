@@ -58,6 +58,15 @@ TABLESPACE pg_default;
 ALTER TABLE public.covid_lookup
     OWNER to superset;
 
+CREATE INDEX idx_country_btree ON public.covid19 USING btree (country);
+
+CREATE INDEX idx_file_date_btree ON public.covid19 USING btree (file_date);
+
+ALTER TABLE public.covid19 CLUSTER ON idx_file_date_btree;
+
+CREATE INDEX idx_province_hash ON public.covid19 USING hash (province);
+
+
 -- Table: public.state_abbreviation
 
 DROP TABLE public.state_abbreviation CASCADE;
@@ -75,6 +84,11 @@ TABLESPACE pg_default;
 ALTER TABLE public.state_abbreviation
     OWNER to superset;
 
+
+CREATE INDEX idx_state_hash
+ON public.state_abbreviation USING hash
+(state COLLATE pg_catalog."default")
+TABLESPACE pg_default;
 
 
 -- View: public.sunkey
