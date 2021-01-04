@@ -46,7 +46,7 @@ then
 	export PGPASSWORD='superset';
 	try psql -a  -c "truncate TABLE covid19;" -h 127.0.0.1 -p 5432  -U superset;
 
-	for f in ./0{1..2}*csv;
+	for f in ./0{1..2}-*-2020.csv;
 	do
 	# echo $f;
 	filename=$(basename -- "$f");
@@ -57,7 +57,7 @@ then
 	done;
 
 
-	for f in ./03-{01..21}*csv; 
+	for f in ./03-{01..21}*2020.csv; 
 	do
 	# echo $f;
 	filename=$(basename -- "$f");
@@ -68,9 +68,7 @@ then
 	done;
 
 
-
-
-	for f in ./03-{22..31}*csv; do  
+	for f in ./03-{22..31}*2020.csv; do  
 	# echo $f;
 	filename=$(basename -- "$f");
 	filename="${filename%.*}";
@@ -79,7 +77,7 @@ then
 	cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
 	done;
 
-	for f in ./04*csv; do  
+	for f in ./04*2020.csv; do  
 	# echo $f;
 	filename=$(basename -- "$f");
 	filename="${filename%.*}";
@@ -88,7 +86,7 @@ then
 	cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
 	done;
 
-	for f in ./05-{01..28}*csv; do
+	for f in ./05-{01..28}*2020.csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
@@ -97,7 +95,7 @@ then
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432  -U supe$
         done;
 
-        for f in ./05-{29..31}*csv; do
+        for f in ./05-{29..31}*2020.csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
@@ -106,7 +104,7 @@ then
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
         done;
 
-	for f in ./0{6..9}*csv; do
+	for f in ./0{6..9}*2020.csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
@@ -115,7 +113,7 @@ then
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
         done;
 
-	for f in ./1{0..2}*csv; do
+	for f in ./1{0..2}*2020.csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
@@ -124,6 +122,15 @@ then
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
         done;
 
+	for f in ./*2021.csv; do
+	# echo $f;
+	filename=$(basename -- "$f");
+	filename="${filename%.*}";
+	egrep -cv '#|^$' $f;
+	try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+	cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
+	done;
+		
 	cd ${SCRIPTS_DIR}
 	try psql -a  -f "${SCRIPTS_DIR}/data_cleaning_queries.sql" -h 127.0.0.1 -p 5432  -U superset
 
@@ -166,7 +173,7 @@ else
 		export PGPASSWORD='superset';
 		try psql -a  -c "truncate TABLE covid19;" -h 127.0.0.1 -p 5432  -U superset;
 
-		for f in ./0{1..2}*csv;
+		for f in ./0{1..2}*2020.csv;
 		do
 		 # echo $f;
 		 filename=$(basename -- "$f");
@@ -177,7 +184,7 @@ else
 		done;
 
 
-		for f in ./03-{01..21}*csv; 
+		for f in ./03-{01..21}*2020.csv; 
 		do
 		 # echo $f;
 		 filename=$(basename -- "$f");
@@ -188,7 +195,7 @@ else
 		done;
 
 
-		for f in ./03-{22..31}*csv; do  
+		for f in ./03-{22..31}*2020.csv; do  
 		 # echo $f;
 		 filename=$(basename -- "$f");
 		 filename="${filename%.*}";
@@ -197,7 +204,7 @@ else
 		 cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
 		done;
 
-		for f in ./04*csv; do  
+		for f in ./04*2020.csv; do  
 		 # echo $f;
 		 filename=$(basename -- "$f");
 		 filename="${filename%.*}";
@@ -206,43 +213,53 @@ else
 		 cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
 		done;
 
-        for f in ./05-{01..28}*csv; do
-        # echo $f;
-        filename=$(basename -- "$f");
-        filename="${filename%.*}";
-        egrep -cv '#|^$' $f;
-        try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
-        cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432 -U superset;
-        done;
+		for f in ./05-{01..28}*2020.csv; do
+		# echo $f;
+		filename=$(basename -- "$f");
+		filename="${filename%.*}";
+		egrep -cv '#|^$' $f;
+		try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+		cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key") from stdin csv header;' -h 127.0.0.1 -p 5432 -U superset;
+		done;
 
-       	for f in ./05-{29..31}*csv; do
-       	# echo $f;
-        filename=$(basename -- "$f");
-        filename="${filename%.*}";
-        egrep -cv '#|^$' $f;
-        try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
-       	cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", "active", "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432 -U superset;
-       	done;
+		for f in ./05-{29..31}*2020.csv; do
+		# echo $f;
+		filename=$(basename -- "$f");
+		filename="${filename%.*}";
+		egrep -cv '#|^$' $f;
+		try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+		cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", "active", "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432 -U superset;
+		done;
 
 
-        for f in ./0{6..9}*csv; do
-        # echo $f;
-        filename=$(basename -- "$f");
-        filename="${filename%.*}";
-        egrep -cv '#|^$' $f;
-        try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
-        cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
-        done;
+		for f in ./0{6..9}*2020.csv; do
+		# echo $f;
+		filename=$(basename -- "$f");
+		filename="${filename%.*}";
+		egrep -cv '#|^$' $f;
+		try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+		cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
+		done;
 
-        for f in ./1{0..2}*csv; do
-        # echo $f;
-        filename=$(basename -- "$f");
-        filename="${filename%.*}";
-        egrep -cv '#|^$' $f;
-        try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
-       	cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
-        done;
+		for f in ./1{0..2}*2020.csv; do
+		# echo $f;
+		filename=$(basename -- "$f");
+		filename="${filename%.*}";
+		egrep -cv '#|^$' $f;
+		try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+		cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
+		done;
 
+		for f in ./*2021.csv; do
+		# echo $f;
+		filename=$(basename -- "$f");
+		filename="${filename%.*}";
+		egrep -cv '#|^$' $f;
+		try psql -a  -c "ALTER TABLE covid19 ALTER file_date SET DEFAULT '$filename';" -h 127.0.0.1 -p 5432  -U superset;
+		cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
+		done;
+		
+		
 		cd ${SCRIPTS_DIR}
 		try psql -a -f "${SCRIPTS_DIR}/data_cleaning_queries.sql" -h 127.0.0.1 -p 5432  -U superset
 
