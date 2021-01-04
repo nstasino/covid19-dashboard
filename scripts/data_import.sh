@@ -115,7 +115,7 @@ then
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
         done;
 
-	for f in ./1{0..1}*csv; do
+	for f in ./1{0..2}*csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
@@ -234,7 +234,7 @@ else
         cat $f | try psql -a -c '\copy covid19 ("fips","admin2","province","country","last_update","latitude", "longitude", "confirmed","deaths","recovered", active, "combined_key", "Incidence_Rate", "Case-Fatality_Ratio") from stdin csv header;' -h 127.0.0.1 -p 5432  -U superset;
         done;
 
-        for f in ./1{0..1}*csv; do
+        for f in ./1{0..2}*csv; do
         # echo $f;
         filename=$(basename -- "$f");
         filename="${filename%.*}";
